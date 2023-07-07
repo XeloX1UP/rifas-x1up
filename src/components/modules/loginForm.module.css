@@ -1,0 +1,55 @@
+.btnGroup > * {
+  background: none;
+  border: none;
+  background: #f9dbbb;
+  padding: 3px 7px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 8px;
+  color: #2e3840;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btnGroup > *:hover {
+  transform: scale(1.04);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.btnGroup > a {
+  background: none;
+  background: #4e6e81;
+  color: #f9dbbb;
+}
+.btnGroup > a:hover {
+  color: black;
+}
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  background: #2e3840;
+}
+.form > div > input {
+  background: none;
+  background-color: #4e6e81;
+  border: none;
+  padding: 8px;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 8px;
+  color: #f9dbbb;
+}
+.form > div > input::placeholder {
+  transition: 0.3s;
+  color: #f9dbbb62;
+}
+.form > div > input:focus::placeholder {
+  opacity: 0;
+}

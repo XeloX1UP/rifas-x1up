@@ -1,0 +1,17 @@
+.cntBtn > button {
+  color: #f9dbbb;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+}
+.cntBtn > button:hover {
+  color: #2e3840;
+  background: #f9dbbb;
+}
+.cntBtn > button:active {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  transform: scale(1.03);
+  color: #f9dbbb;
+}

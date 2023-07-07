@@ -1,0 +1,16 @@
+.btn {
+  width: 60px;
+  height: 60px;
+  user-select: none;
+  background-color: #f9dbbb;
+  color: #2e3840;
+  transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.selected {
+  background-color: #4e6e81;
+  color: #f9dbbb;
+}

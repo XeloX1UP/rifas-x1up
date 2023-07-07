@@ -1,0 +1,39 @@
+.form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 40%;
+  justify-content: space-between;
+  min-width: 200px;
+  color: #2e3840;
+}
+.form > div > input {
+  background: none;
+  background-color: #4e6e81;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: whitesmoke;
+}
+.form > div > input:focus {
+  outline: none;
+}
+.form > .btn > button {
+  padding: 10px 15px;
+  background: none;
+  background-color: #2e3840;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.3s;
+  color: whitesmoke;
+}
+.form > .btn > button:focus {
+  outline: none;
+}
+.form > .btn > button:hover {
+  transform: scale(1.02);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

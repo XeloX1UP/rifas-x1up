@@ -1,0 +1,9 @@
+.table > thead > tr > th {
+  background-color: #a78f75;
+}
+.table > tbody > tr > td {
+  background-color: #f9dbbb;
+}
+.table {
+  border: 2px solid #4e6e81;
+}
